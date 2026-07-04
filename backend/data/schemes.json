@@ -1,0 +1,52 @@
+[
+  {
+    "id": "pmjay",
+    "name": "Pradhan Mantri Jan Arogya Yojana (PM-JAY)",
+    "description": "Provides health cover of ₹5 lakh per family per year for secondary and tertiary care hospitalisation.",
+    "eligibility": "BPL families, SECC database beneficiaries",
+    "benefit": "₹5,00,000 cashless hospitalisation per year",
+    "apply_url": "https://pmjay.gov.in",
+    "category": "general",
+    "keywords": ["hospitalisation", "surgery", "accident", "emergency", "BPL"]
+  },
+  {
+    "id": "mahatma_jyotirao_phule",
+    "name": "Mahatma Jyotirao Phule Jan Arogya Yojana",
+    "description": "Maharashtra state scheme providing cashless treatment up to ₹5 lakh for 996+ diseases.",
+    "eligibility": "Maharashtra residents with yellow/orange/white ration card",
+    "benefit": "₹5,00,000 cashless treatment at empanelled hospitals",
+    "apply_url": "https://www.jeevandayee.gov.in",
+    "category": "general",
+    "keywords": ["maharashtra", "surgery", "hospitalisation", "chronic", "cancer", "kidney"]
+  },
+  {
+    "id": "janani_suraksha",
+    "name": "Janani Suraksha Yojana (JSY)",
+    "description": "Safe motherhood intervention promoting institutional delivery among pregnant women.",
+    "eligibility": "Pregnant women below poverty line, SC/ST women",
+    "benefit": "Cash assistance ₹1,400 (rural) / ₹1,000 (urban) for institutional delivery",
+    "apply_url": "https://nhm.gov.in/index1.php?lang=1&level=3&sublinkid=841&lid=309",
+    "category": "maternal",
+    "keywords": ["pregnancy", "delivery", "maternal", "antenatal", "postnatal", "baby", "childbirth"]
+  },
+  {
+    "id": "rashtriya_bal_swasthya",
+    "name": "Rashtriya Bal Swasthya Karyakram (RBSK)",
+    "description": "Child health screening and early intervention for birth defects, diseases, deficiencies, developmental delays.",
+    "eligibility": "Children 0–18 years",
+    "benefit": "Free screening and treatment at District Early Intervention Centre",
+    "apply_url": "https://rbsk.gov.in",
+    "category": "child",
+    "keywords": ["child", "baby", "infant", "fever", "malnutrition", "disability", "growth", "developmental"]
+  },
+  {
+    "id": "nikshay_poshan",
+    "name": "Nikshay Poshan Yojana",
+    "description": "Nutritional support to TB patients during treatment.",
+    "eligibility": "All notified TB patients in India",
+    "benefit": "₹500/month direct benefit transfer during entire treatment",
+    "apply_url": "https://nikshay.in",
+    "category": "general",
+    "keywords": ["tuberculosis", "TB", "cough", "weight loss", "night sweats", "lung"]
+  }
+]

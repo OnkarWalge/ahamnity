@@ -1,0 +1,52 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    font-family: 'Inter', 'Noto Sans', sans-serif;
+  }
+
+body {
+    color: #F3EFFA;
+    -webkit-font-smoothing: antialiased;
+    min-height: 100vh;
+    background-color: #0B0712;
+    background-image:
+      radial-gradient(circle, rgba(168, 85, 247, 0.28), transparent 55%),
+      radial-gradient(circle, rgba(232, 121, 249, 0.20), transparent 55%),
+      radial-gradient(circle, rgba(124, 58, 237, 0.22), transparent 60%);
+    background-size: 160% 160%, 160% 160%, 160% 160%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: 10% 10%, 90% 20%, 50% 90%;
+    animation: gradientDrift 26s ease-in-out infinite alternate;
+  }
+
+  @keyframes gradientDrift {
+    0%   { background-position: 10% 10%, 90% 20%, 50% 90%; }
+    50%  { background-position: 30% 25%, 65% 45%, 35% 70%; }
+    100% { background-position: 5% 30%, 95% 5%, 60% 95%; }
+  }
+
+  /* Visible keyboard focus everywhere — accessibility floor */
+  :focus-visible {
+    outline: 2px solid #A855F7;
+    outline-offset: 2px;
+  }
+
+  /* Respect reduced-motion preference */
+  @media (prefers-reduced-motion: reduce) {
+    *, *::before, *::after {
+      animation-duration: 0.01ms !important;
+      animation-iteration-count: 1 !important;
+      transition-duration: 0.01ms !important;
+    }
+  }
+}
+
+@layer utilities {
+  .font-display {
+    font-family: 'Sora', 'Noto Sans', sans-serif;
+  }
+}
