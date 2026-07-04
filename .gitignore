@@ -13,3 +13,4 @@ build/
 *.wav
 *.webm
 test_pipeline_output.mp3
+frontend/node_modules/
